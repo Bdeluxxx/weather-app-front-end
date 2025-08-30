@@ -1,5 +1,5 @@
 // O Front End "chama" o Back End para obter os dados
-fetch('fetch('https://bdeluxxx.pythonanywhere.com/clima')')
+fetch('https://bdeluxxx.pythonanywhere.com/clima')
     .then(response => response.json())
     .then(data => {
         // Pega os elementos do HTML
